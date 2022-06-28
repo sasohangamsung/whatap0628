@@ -1,8 +1,8 @@
 from django.shortcuts import render, HttpResponse
+import math
 
 # Create your views here.
 def main(request) :
-    import math           # math 모듈 불러 오기
 
     old_pi = 3.14163      # 아르키메데스가 96각형을 사용(n = 96)하여 계산한 원주율값
     n = 5                 # 5각형부터 시작
@@ -29,5 +29,5 @@ def main(request) :
     # 파이썬 내장 원주율값(math.pi)와 비교
     # print("내장 원주율: ", math.pi, "차이: ", math.pi - new_pi)
 
-    httptext = f"""내장원주율 {math.pi}, 차이 {math.pi - new_pi}"""
+    httptext = {'pi' : math.pi}
     return HttpResponse(httptext)
