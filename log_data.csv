@@ -1,0 +1,23 @@
+"                         timestamp METHOD        URL  Status_Code  Latency_ms
+0 2022-06-28 01:37:29.845214+00:00    GET  127.0.0.1          200    0.004402"
+
+"                         timestamp METHOD        URL  Status_Code  Latency_ms
+0 2022-06-28 01:37:40.971644+00:00    GET  127.0.0.1          200         0.0"
+"                         timestamp METHOD        URL  Status_Code  Latency_ms
+0 2022-06-28 01:37:42.739090+00:00    GET  127.0.0.1          200    0.000999"
+"                         timestamp METHOD        URL  Status_Code  Latency_ms
+0 2022-06-28 01:37:43.603153+00:00    GET  127.0.0.1          200         0.0"
+"                         timestamp METHOD        URL  Status_Code  Latency_ms
+0 2022-06-28 01:44:44.175674+00:00    GET  127.0.0.1          200    0.004998"
+"                         timestamp METHOD        URL  Status_Code  Latency_ms
+0 2022-06-28 01:46:26.205457+00:00    GET  127.0.0.1          200    0.004214"
+"                         timestamp METHOD        URL  Status_Code  Latency_ms
+0 2022-06-28 01:50:34.461324+00:00    GET  127.0.0.1          200    0.394521"
+"                         timestamp METHOD        URL  Status_Code  Latency_ms
+0 2022-06-28 01:50:48.594483+00:00    GET  127.0.0.1          200    0.006998"
+"                         timestamp METHOD        URL  Status_Code  Latency_ms
+0 2022-06-28 01:50:52.540206+00:00    GET  127.0.0.1          200    0.002001"
+"                         timestamp METHOD        URL  Status_Code  Latency_ms
+0 2022-06-28 01:50:54.466292+00:00    GET  127.0.0.1          200    0.001999"
+"                         timestamp METHOD        URL  Status_Code  Latency_ms
+0 2022-06-28 01:51:01.196485+00:00    GET  127.0.0.1          200       0.002"
