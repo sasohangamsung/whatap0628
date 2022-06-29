@@ -5,7 +5,7 @@ import math
 def main_page(request) :
 
     html_tag = """
-    <a type="button" href="pi">pi</a>
+    <center><a type="button" href="pi">pi</a></center>
     """
     return HttpResponse(html_tag)
 
@@ -35,6 +35,7 @@ def answer_pi(request) :
     
     html_tag = f"""
     {math.pi}
-    <button type="button" class="btn btn-outline-success" onclick="history.back()">이전으로</button>
+    <center><button type="button" style="width:150px;height:80px;" class="btn btn-outline-success" onclick="history.back()">이전으로</button></center>
     """
+
     return HttpResponse(html_tag)
