@@ -2,7 +2,15 @@ from django.shortcuts import render, HttpResponse
 import math
 
 # Create your views here.
-def main(request) :
+def main_page(request) :
+
+    html_tag = """
+    <a type="button" href="pi">pi</a>
+    """
+    return HttpResponse(html_tag)
+
+
+def answer_pi(request) :
 
     old_pi = 3.14163      # 아르키메데스가 96각형을 사용(n = 96)하여 계산한 원주율값
     n = 5                 # 5각형부터 시작
@@ -23,11 +31,10 @@ def main(request) :
         else:
             n = n + 1            # 다각형의 변의 개수를 늘리기
             
-    # 아르키메데스의 원주율과 계산값 차이 비교
-    # print("old_pi: ", old_pi, "new_pi: ", new_pi, "error: ", new_pi - old_pi)
 
-    # 파이썬 내장 원주율값(math.pi)와 비교
-    # print("내장 원주율: ", math.pi, "차이: ", math.pi - new_pi)
-
-    httptext = {'pi' : math.pi}
-    return HttpResponse(httptext)
+    
+    html_tag = f"""
+    {math.pi}
+    <button type="button" class="btn btn-outline-success" onclick="history.back()">이전으로</button>
+    """
+    return HttpResponse(html_tag)

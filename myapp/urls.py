@@ -19,5 +19,6 @@ from django.urls import include
 from myapp import views
 
 urlpatterns = [
-    path('', views.main),
+    path('', views.main_page),
+    path('pi/', views.answer_pi)
 ]
